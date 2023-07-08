@@ -3,6 +3,7 @@
   "hostRequirements": {
     "cpus": 4
   },
+  "postCreateCommand": "pip install ipython --user",
   "customizations": {
     "vscode": {
       "extensions": [
