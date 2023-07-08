@@ -1,5 +1,5 @@
 {
-  "image": "intel/oneapi-basekit:2023.0.0-devel-ubuntu22.04",
+  "image": "intelpython/intelpython3_full:latest",
   "hostRequirements": {
     "cpus": 4
   },
@@ -8,8 +8,7 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python",
-        "ms-vscode.cpptools",
-        "intel-corporation.oneapi-extension-pack"
+        "ms-vscode.cpptools"
       ]
     }
   }
