@@ -1,19 +1,15 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "intel/oneapi-basekit:2023.0.0-devel-ubuntu22.04",
   "hostRequirements": {
     "cpus": 4
   },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
   "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
-        "ms-python.python"
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "intel-corporation.oneapi-extension-pack"
       ]
     }
   }
